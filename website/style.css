@@ -1,0 +1,92 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	background: url(./sam-schooler-E9aetBe2w40-unsplash.jpg);
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.headline {
+	color: white;
+	font-size: 25px;
+	background-color: #3b457e;
+	padding: 10px;
+	text-align: center;
+}
+#zip,
+#feelings,
+#generate {
+	background: #17053866;
+	margin: 60px auto 0px;
+	width: 40%;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	height: 38px;
+	text-align: center;
+	color: white;
+	display: block;
+	font-size: 15px;
+	resize: none;
+}
+#zip::placeholder,
+#feelings::placeholder {
+	color: white;
+	font-family: sans-serif;
+	line-height: 38px;
+}
+#error {
+	background-color: #17053866;
+	color: white;
+	font-size: large;
+	width: 22%;
+	text-align: center;
+	margin: 0px auto 12px;
+	border-radius: 1px 0px 30px 30px;
+	display: block;
+}
+#feelings {
+	margin-top: 1;
+}
+#generate {
+	width: 20%;
+	margin-top: 18px;
+	background: #3b457e;
+	cursor: pointer;
+}
+#entry {
+	width: 50%;
+	background: #07133340;
+	margin: 50px auto;
+	border-radius: 10px;
+	height: 208px;
+	opacity: 0;
+	transition: all 2s ease;
+}
+.title {
+	padding: 10px;
+	text-align: center;
+	font-size: 17px;
+	color: white;
+}
+#entryHolder {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+	font-size: 1.5vw;
+	background: #3b457e;
+	opacity: 55%;
+	color: white;
+}
+#content {
+	grid-column: 1 / -1;
+}
+#temp,
+#city {
+	font-size: 4vw;
+}
